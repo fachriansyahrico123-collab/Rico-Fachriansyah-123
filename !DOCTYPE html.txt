@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<title>Nama Lu | Personal Website</title>
+
+<style>
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0f172a;
+  color: white;
+}
+
+header {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+header img {
+  width: 120px;
+  border-radius: 50%;
+}
+
+h1 {
+  margin: 10px 0;
+}
+
+.section {
+  padding: 30px 20px;
+  max-width: 600px;
+  margin: auto;
+}
+
+.card {
+  background: #1e293b;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #22c55e;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 8px;
+  background: #22c55e;
+  font-weight: bold;
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+  <img src="foto-lu.jpg">
+  <h1>Nama Lu</h1>
+  <p>Mahasiswa Sastra | Copywriting | Digital Ads</p>
+</header>
+
+<div class="section">
+  <h2>Tentang Gue</h2>
+  <div class="card">
+    Gue fokus di dunia digital marketing & copywriting.
+    Suka ngebangun konten yang bukan cuma keren, tapi juga jualan.
+  </div>
+</div>
+
+<div class="section">
+  <h2>Skill</h2>
+  <div class="card">Copywriting</div>
+  <div class="card">Facebook Ads</div>
+  <div class="card">Content Strategy</div>
+</div>
+
+<div class="section">
+  <h2>Kontak & Link</h2>
+
+  <a href="https://wa.me/628xxx"><button>Chat WhatsApp</button></a>
+  <a href="#"><button>Portofolio</button></a>
+  <a href="#"><button>Instagram</button></a>
+
+</div>
+
+</body>
+</html>
